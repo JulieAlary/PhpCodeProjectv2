@@ -3,13 +3,16 @@
     {{ include('home/_main_dark.html.twig') }}
 
     {{ include('home/_last_published.html.twig') }}
+
 <div class="container">
     <div class="row g-5">
         {{ include('home/_sample_post.html.twig') }}
         <div class="col-md-4">
-            {{ include('home/_about_section.html.twig') }}
-            {{ include('home/_archives_section.html.twig') }}
-            {{ include('home/_networks_section.html.twig') }}
+            <div class="position-sticky" style="top: 2rem;">
+                {{ include('home/_about_section.html.twig') }}
+                {{ include('home/_archives_section.html.twig') }}
+                {{ include('home/_networks_section.html.twig') }}
+            </div>
         </div>
     </div>
 </div>

@@ -20,5 +20,14 @@ a {
     border-top: 0.05rem solid #e5e5e5;
 }
 .fa-up-long {
+    color: #727272;
+}
+
+/*Networks*/
+.fa-github-alt, .fa-twitter, .fa-facebook-f {
     color: black;
+    font-size: 2rem;
+}
+.fa-twitter, .fa-facebook-f {
+    margin-left: 1rem;
 }
