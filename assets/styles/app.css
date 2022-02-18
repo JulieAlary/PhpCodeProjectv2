@@ -1,9 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
-
 h1 {
-    color: red;
+    color: #6c757d;
 }
-
 a {
     text-decoration: none;
 }
